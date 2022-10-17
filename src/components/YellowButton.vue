@@ -14,11 +14,13 @@
 
 <style>
     .button-centralize {
-        margin: auto;
+        display: flex;
+        justify-content: center;
     }
 
     .join-club {
         background-color: #FDE74C;
+        border: none;
         border-radius: 20px;
         padding: 10px 70px;
 

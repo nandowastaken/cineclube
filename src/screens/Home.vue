@@ -7,7 +7,7 @@
         </div>
 
         <div class="column welcome-paragraph">
-            <p class="is-size-3 welcome-text">As portas do mundo cinematográfico estão abertas para você, conheça pessoas com o mesmo amor e paixão pelo cinema.</p>
+            <p class="welcome-text">As portas do mundo cinematográfico estão abertas para você, conheça pessoas com o mesmo amor e paixão pelo cinema.</p>
         </div>
 
         <YellowButton/>
@@ -33,6 +33,7 @@
 
     .columns {
         height: 100vh;
+        background-color: black;
         
     }
 
@@ -52,6 +53,9 @@
 
     .welcome-text {
         font-family: 'Special Elite', cursive;
+        color: white;
+        font-size: 1.6rem;
+        margin-bottom: 10px;
     }
 
     .image-cover {
