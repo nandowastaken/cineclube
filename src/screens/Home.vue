@@ -2,7 +2,6 @@
    <div class="columns is-vcentered is-centered">
         <div class="column first-column">
             <Navbar/>
- 
             <img src="https://indiehoy.com/wp-content/uploads/2021/07/moonrise-kingdom.jpg" class="image-cover">
         </div>
 
@@ -35,7 +34,14 @@
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+    .columns {
+        background-color: black;
+        width: 100%;
+    }
+
     .first-column {
+        width: 103%;
         height: 50%;
     }
 
