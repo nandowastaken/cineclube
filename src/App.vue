@@ -6,7 +6,7 @@
                 <img src="https://indiehoy.com/wp-content/uploads/2021/07/moonrise-kingdom.jpg" class="image-cover">
             </div>
 
-            <div class="column">
+            <div class="column welcome-paragraph">
                 <p class="is-size-3 welcome-text">As portas do mundo cinematográfico estão abertas para você, conheça pessoas com o mesmo amor e paixão pelo cinema.</p>
             </div>
 
@@ -44,6 +44,11 @@
     .image-cover {
         width: 100%;
         height: 100%;
+    }
+
+    .welcome-paragraph {
+        margin: auto;
+        width: 90%;
     }
 
     .welcome-text {
