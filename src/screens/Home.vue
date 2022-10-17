@@ -54,7 +54,7 @@
     .welcome-text {
         font-family: 'Special Elite', cursive;
         color: white;
-        font-size: 1.6rem;
+        font-size: 1.7rem;
         margin-bottom: 10px;
     }
 
