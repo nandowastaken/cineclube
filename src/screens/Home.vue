@@ -1,16 +1,21 @@
 <template>
-    <div class="columns is-vcentered is-centered">
+   <div class="columns is-vcentered is-centered">
         <div class="column first-column">
             <Navbar/>
  
             <img src="https://indiehoy.com/wp-content/uploads/2021/07/moonrise-kingdom.jpg" class="image-cover">
         </div>
 
-        <div class="column welcome-paragraph">
-            <p class="welcome-text">As portas do mundo cinematográfico estão abertas para você, conheça pessoas com o mesmo amor e paixão pelo cinema.</p>
-        </div>
+        <div class="content-welcome">
+            <div class="column welcome-paragraph">
+                <p class="welcome-text">As portas do mundo cinematográfico estão abertas para você, conheça pessoas com o mesmo amor e paixão pelo cinema.</p>
+            </div>
 
-        <YellowButton/>
+            <YellowButton/>
+        </div>
+       
+
+       
     </div>
 </template>
 
@@ -30,13 +35,6 @@
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
-
-    .columns {
-        height: 100vh;
-        background-color: black;
-        
-    }
-
     .first-column {
         height: 50%;
     }
@@ -44,6 +42,10 @@
     .image-cover {
         width: 100%;
         height: 100%;
+    }
+
+    .content-welcome {
+        height: 50%;
     }
 
     .welcome-paragraph {
