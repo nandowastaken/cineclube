@@ -41,13 +41,14 @@
     }
 
     .first-column {
-        width: 103%;
+        width: 100%;
         height: 50%;
     }
 
     .image-cover {
-        width: 100%;
         height: 100%;
+
+        max-width: 800px;
     }
 
     .content-welcome {
