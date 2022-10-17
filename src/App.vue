@@ -1,15 +1,18 @@
 <template>
-    <main class="columns is-gapless is-multiline">
-        <div class="column is-one-quarter">
+    <Navbar/>
 
-        </div>
-
-        <div class="column is-three-quarter">
-
-        </div>
-    </main>
 </template>
 
-<script lang="ts"></script>
+<script lang="ts">
+    import { defineComponent } from 'vue';
+    import Navbar from './components/Navbar.vue';
+
+    export default defineComponent({
+        name: 'App',
+        components: {
+            Navbar,
+        }
+    })
+</script>
 
 <style></style>
