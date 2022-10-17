@@ -1,10 +1,9 @@
 <template>
         <div class="columns is-vcentered is-centered">
-            <div class="column">
+            <div class="column first-column">
                 <Navbar/>
-                <figure class="image-container">
-                    <img src="https://indiehoy.com/wp-content/uploads/2021/07/moonrise-kingdom.jpg" class="image-cover">
-                </figure>
+ 
+                <img src="https://indiehoy.com/wp-content/uploads/2021/07/moonrise-kingdom.jpg" class="image-cover">
             </div>
 
             <div class="column">
@@ -38,11 +37,21 @@
         
     }
 
+    .first-column {
+        height: 50%;
+    }
 
-
+    .image-cover {
+        width: 100%;
+        height: 100%;
+    }
 
     .welcome-text {
         font-family: 'Special Elite', cursive;
+    }
+
+    .image-cover {
+        width: 400px;
     }
 
 
