@@ -19,5 +19,7 @@
 </script>
 
 <style>
-
+    #app {
+        background-color: black;
+    }
 </style>
