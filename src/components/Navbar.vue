@@ -2,7 +2,7 @@
         <nav class="navbar" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
                 <a href="#" class="navbar-item">
-                    <h1>Cineclube.</h1>
+                    <h1 class="title is-3">Cineclube.</h1>
                 </a>
 
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -81,10 +81,19 @@ export default defineComponent({
 </script>
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
     .navbar {
         width: 100%;
         position: absolute;
         background-color: transparent;
+    }
+
+    .title {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        color: white;
+        
     }
 
 </style>
