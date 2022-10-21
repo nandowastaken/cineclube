@@ -4,6 +4,8 @@
         <HowWeWork/>
         <NextMeeting/>
         <Movie/>
+        <Team/>
+        <Footer/>
     
 </template>
 
@@ -14,6 +16,8 @@
     import HowWeWork from './screens/HowWeWork.vue';
     import NextMeeting from './screens/NextMeeting.vue';
     import Movie from './screens/Movie.vue';
+    import Team from './screens/Team.vue';
+    import Footer from './screens/Footer.vue';
 
     export default defineComponent({
         name: 'App',
@@ -22,7 +26,9 @@
             AboutUs,
             HowWeWork,
             NextMeeting,
-            Movie
+            Movie,
+            Team,
+            Footer
         }
     })
 </script>
