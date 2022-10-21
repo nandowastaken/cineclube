@@ -73,10 +73,11 @@
 
 });
 
-import { defineComponent } from 'vue';
+    import { defineComponent } from 'vue';
 
-export default defineComponent({
-    name: 'WebsiteNavbar'
+    export default defineComponent({
+        name: 'WebsiteNavbar',
+        
 });
 </script>
 

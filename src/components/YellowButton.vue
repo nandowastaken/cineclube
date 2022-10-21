@@ -1,6 +1,6 @@
 <template>
     <div class="column button-centralize" >
-        <button class="button join-club">Junte-se ao Clube</button>
+        <button class="button join-club">{{ message }}</button>
     </div>
 </template>
 
@@ -8,7 +8,10 @@
     import { defineComponent } from 'vue';
 
     export default defineComponent({
-        name: 'YellowButton'
+        name: 'YellowButton',
+        props: {
+            message: String
+        }
     });
 </script>
 

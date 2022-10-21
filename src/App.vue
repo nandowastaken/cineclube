@@ -3,6 +3,7 @@
         <AboutUs/>
         <HowWeWork/>
         <NextMeeting/>
+        <Movie/>
     
 </template>
 
@@ -12,6 +13,7 @@
     import AboutUs from './screens/AboutUs.vue';
     import HowWeWork from './screens/HowWeWork.vue';
     import NextMeeting from './screens/NextMeeting.vue';
+    import Movie from './screens/Movie.vue';
 
     export default defineComponent({
         name: 'App',
@@ -19,7 +21,8 @@
             Home,
             AboutUs,
             HowWeWork,
-            NextMeeting
+            NextMeeting,
+            Movie
         }
     })
 </script>

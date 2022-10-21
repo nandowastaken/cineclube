@@ -11,7 +11,7 @@
                     As portas do mundo cinematográfico estão abertas para você, conheça pessoas com o mesmo amor e paixão pelo cinema.
                 </p>
 
-                <YellowButton/>
+                <YellowButton message="Junte-se ao Clube"/>
             </div>
             
         </div>
@@ -39,7 +39,7 @@
     }
 
     .image-cover {
-        width: 50vw;
+        width: 100vw;
         height: 50vh;
     }
 
@@ -56,9 +56,6 @@
         font-size: 1.7rem;
         margin-left: 20px;
         
-    }
-    .image-cover {
-        width: 400px;
     }
 
 </style>
