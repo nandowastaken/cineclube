@@ -84,8 +84,8 @@ export default defineComponent({
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
     .navbar {
-        width: 100%;
         position: absolute;
+        width: 100%;
         background-color: transparent;
     }
 
