@@ -7,7 +7,7 @@
         <div class="column">
             <div class="content-movie">
                 <div class="movie-header">
-                    <h1 class="movie-title">O Castelo Animado</h1>
+                    <h1 class="movie-title" id="month-movie">O Castelo Animado</h1>
                     <p class="movie-info">2004 - Fantasia/Aventura - 119min</p>
                 </div>
                 

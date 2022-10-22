@@ -14,31 +14,27 @@
 
             <div id="navbarBasicExample" class="navbar-menu">
                 <div class="navbar-start">
-                <a class="navbar-item">
+                <a class="navbar-item" href="#">
                     Home
                 </a>
 
-                <a class="navbar-item">
+                <a class="navbar-item" href="#about-us">
                     Quem somos?
                 </a>
 
-                <a class="navbar-item">
+                <a class="navbar-item" href="#how-we-work">
                     Como funciona?
                 </a>
 
-                <a class="navbar-item">
+                <a class="navbar-item" href="#next-meeting">
                     Próxima reunião
                 </a>
 
-                <a class="navbar-item">
+                <a class="navbar-item" href="#movie">
                     Filme do mês
                 </a>
 
-                <a class="navbar-item">
-                    Participe
-                </a>
-
-                <a class="navbar-item">
+                <a class="navbar-item" href="#team">
                     Equipe
                 </a>
                 

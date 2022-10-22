@@ -2,7 +2,7 @@
     <div class="columns team">
         <div class="column">
             <div class="team-member">
-                <h1 class="team-title">Equipe</h1>
+                <h1 class="team-title" id="team">Equipe</h1>
         
                 <div class="member">
                     <div class="box-container"></div>
