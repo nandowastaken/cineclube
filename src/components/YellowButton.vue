@@ -1,6 +1,7 @@
 <template>
     <div class="column button-centralize" >
         <button class="button join-club">{{ message }}</button>
+        
     </div>
 </template>
 
@@ -10,7 +11,8 @@
     export default defineComponent({
         name: 'YellowButton',
         props: {
-            message: String
+            message: String,
+            
         }
     });
 </script>
@@ -19,7 +21,7 @@
     .button-centralize {
         display: flex;
         justify-content: center;
-        margin-bottom: 50px;
+        
     }
 
     .join-club {

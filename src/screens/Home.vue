@@ -11,7 +11,9 @@
                     As portas do mundo cinematográfico estão abertas para você, conheça pessoas com o mesmo amor e paixão pelo cinema.
                 </p>
 
-                <YellowButton message="Junte-se ao Clube"/>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe3-J5YLM8g4xVSOLnHmfYY8NCosW4-q_QF26D6PvtF2KjmBw/viewform?usp=sf_link" target="blank">
+                    <YellowButton message="Junte-se ao Clube" />
+                </a>
             </div>
             
         </div>
@@ -47,6 +49,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        height: 50vh;
         gap: 30px;
     }
 
@@ -54,7 +57,7 @@
         font-family: 'Special Elite', cursive;
         color: white;
         font-size: 1.7rem;
-        margin-left: 20px;
+        margin-left: 15px;
         
     }
 
