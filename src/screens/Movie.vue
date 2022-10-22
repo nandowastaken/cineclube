@@ -1,7 +1,7 @@
 <template>
     <div class="columns movie">
         <div class="column is-centered">
-            <img src="https://miro.medium.com/max/1400/1*Q4LG9I7iN6mNO5kWJe6hLg.jpeg" class="movie-cover">
+            <img src="https://miro.medium.com/max/1400/1*Q4LG9I7iN6mNO5kWJe6hLg.jpeg" class="movie-cover" id="movie">
         </div>
 
         <div class="column">

@@ -6,7 +6,9 @@
                 <p class="next-meeting-description">
                     Nossa próxima reunião é Sexta-feira, 11/11. E o filme é O Castelo Animado, do Studio Ghibli.
                 </p>
-                <YellowButton message="Ver Filme"/>
+                <a href="#movie">
+                    <YellowButton message="Ver Filme"/>
+                </a>
             </div>
         </div>
     </div>
