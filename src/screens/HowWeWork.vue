@@ -23,31 +23,5 @@
 </script>
 
 <style>
-    .how-we-work {
-        background-color: white;
-    }
-
-    .content-how-we-work {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        margin: 10px;
-    }
-
-    .how-we-work-title, .how-we-work-description {
-        font-family: 'Inter', sans-serif;
-        color: rgb(0, 0, 0);
-    }
-
-    .how-we-work-title {
-        font-size: 30px;
-        font-weight: 700;
-        
-    }
-
-    .how-we-work-description {
-        font-size: 20px;
-        font-weight: 400;
-
-    }
+    @import '../assets/styles/how-we-work.css';
 </style>

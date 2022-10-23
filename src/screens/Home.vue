@@ -35,30 +35,6 @@
 </script>
 
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
-    .home {
-        background-color: black;
-    }
-
-    .image-cover {
-        width: 100vw;
-        height: 50vh;
-    }
-
-    .content-welcome {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 50vh;
-        gap: 30px;
-    }
-
-    .welcome-text {
-        font-family: 'Special Elite', cursive;
-        color: white;
-        font-size: 1.7rem;
-        margin-left: 15px;
-        
-    }
+    @import '../assets/styles/home.css';
 
 </style>

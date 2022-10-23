@@ -28,41 +28,7 @@
 </script>
 
 <style>
-    .logo-if {
-        width: 64px;
-    }
-
-    .institute-name, .location, .institute-info {
-        font-family: 'Inter', sans-serif;
-    }
-
-    .institute-name {
-        text-align: center;
-    }
-
-    .location {
-        font-weight: 900;
-    }
-    .institute-info {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        margin: 30px;
-    }
-
-    .copyright {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .copyright-text {
-        font-family: 'Inter', sans-serif;
-        font-weight: 500;
-    }
-
+    
+    @import '../assets/styles/footer.css';
     
 </style>

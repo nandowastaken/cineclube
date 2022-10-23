@@ -29,39 +29,5 @@
 </script>
 
 <style>
-    .movie {
-        background-color: black;
-    }
-    .movie-cover {
-        height: 50vh;
-    }
-
-    .movie-title {
-        font-family: "Inter", sans-serif;
-        color: white;
-        font-weight: 700;
-        font-size: 32px;
-    }
-
-    .movie-info {
-        color: #BFBFBF;
-        opacity: 0.6;
-    }
-
-    .sinopse {
-        color: white;
-        font-family: "Inter", sans-serif;
-        margin: 0px 35px;
-        font-weight: 400;
-        font-size: 18px;
-    }
-
-    .content-movie {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        height: 50vh;
-        gap: 15px;
-    }
+    @import '../assets/styles/movie.css';
 </style>
