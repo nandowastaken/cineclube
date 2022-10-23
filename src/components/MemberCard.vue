@@ -1,7 +1,7 @@
 <template>
     <div class="member">
             <div class="box-container">
-                <img src="../assets/members-photos/template.png" alt="" class="member-photo">
+                <img src={{img}} alt="" class="member-photo">
                 <div class="info-member">
                     <div class="member-header">
                         <h1 class="member-name">{{ name }}</h1>
@@ -24,7 +24,8 @@
             name: String,
             positionMember: String, 
             description: String,
-            image: String
+            img: String,
+            
 
         }
     });
