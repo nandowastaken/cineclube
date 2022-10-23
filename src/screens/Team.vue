@@ -12,7 +12,7 @@
                 <MemberCard
                     name="Malu Alaquoke"
                     position-member="mediadora"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    description="Adora cinema desde pequenininha, seu filme favorito é Sociedade dos Poetas Mortos. Ama filmes de guerra, dramas e fantasia. “Carpe Diem. Façam suas vidas extraordinárias”."
                 />
                 <MemberCard
                     name="Lywya Eugênia"

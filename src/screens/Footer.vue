@@ -26,7 +26,7 @@
         width: 64px;
     }
 
-    .institute-name, .location {
+    .institute-name, .location, .institute-info {
         font-family: 'Inter', sans-serif;
     }
 
@@ -35,7 +35,7 @@
     }
 
     .location {
-        font-weight: 600;
+        font-weight: 900;
     }
     .institute-info {
         display: flex;
