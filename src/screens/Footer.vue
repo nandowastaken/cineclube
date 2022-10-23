@@ -2,10 +2,16 @@
     <div class="columns">
         <div class="column">
             <div class="institute-info">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Logotipo_IFET.svg/573px-Logotipo_IFET.svg.png" alt="Logo do Instituto Federal." class="logo-if">
+                <img src="../assets/logo-if.png" alt="Logo do Instituto Federal." class="logo-if">
                 <p class="institute-name">Instituto Federal de Educação, Ciência e Tecnologia de Alagoas</p>
                 <p class="location">Campus Maceió</p>
             </div>
+
+            <div class="copyright">
+                <p class="copyright-text">©2022 Cineclube</p>
+                <p class="copyright-text">Todos os direitos reservados.</p>
+            </div>
+            
         </div>
     </div>
 </template>
@@ -44,6 +50,18 @@
         align-items: center;
 
         margin: 30px;
+    }
+
+    .copyright {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .copyright-text {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
     }
 
     
