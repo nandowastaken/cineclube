@@ -3,22 +3,33 @@
         <div class="column">
             <div class="team-member">
                 <h1 class="team-title" id="team">Equipe</h1>
-                <MemberCard
-                    name="Fernando Jorge"
-                    position-member="presidente"
-                    description="Presidente do Cineclube desde Março de 2022. Adora Star Wars e por um milagre não botou o Darth Vader na capa quando criou esse site."
-                    image="Fernando.jpg"
-                />
-                <MemberCard
-                    name="Malu Alaquoke"
-                    position-member="mediadora"
-                    description="Adora cinema desde pequenininha, seu filme favorito é Sociedade dos Poetas Mortos. Ama filmes de guerra, dramas e fantasia. “Carpe Diem. Façam suas vidas extraordinárias”."
-                />
-                <MemberCard
-                    name="Lywya Eugênia"
-                    position-member="designer"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                />
+
+                <div class="members">
+                    <MemberCard
+                        name="Fernando Jorge"
+                        position-member="presidente"
+                        description="Presidente do Cineclube desde Março de 2022. Adora Star Wars e por um milagre não botou o Darth Vader na capa quando criou esse site."
+                        image="Fernando.jpg"
+                    />
+                    <MemberCard
+                        name="Malu Alaquoke"
+                        position-member="mediadora"
+                        description="Adora cinema desde pequenininha, seu filme favorito é Sociedade dos Poetas Mortos. Ama filmes de guerra, dramas e fantasia. “Carpe Diem. Façam suas vidas extraordinárias”."
+                    />
+                    <MemberCard
+                        name="Lywya Eugênia"
+                        position-member="designer"
+                        description="obcecada pela lana del rey e taylor swift. passatempo: ver filme cult para logar no letterboxed e hater número 1do tarantino."
+                    />
+
+                    <MemberCard
+                        name="Maria Isabel"
+                        position-member="designer"
+                        description="Bel, aspirante a designer, louca por orgulho e preconceito e emma."
+                    />
+                </div>
+
+                
                 
             </div>
         </div>
@@ -49,6 +60,12 @@
         font-weight: 700;
         text-align: center;
         font-family: "Inter", sans-serif;
+    }
+
+    .members {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 
     
