@@ -31,7 +31,7 @@
                                     <p class="member-function">mediadora</p>
                                 </div>
                                         
-                                <p class="member-description">Cadelinha do Wes Anderson, adora filmes de guerra, drama e fantasia. Vive de Cup Noodles e Brooklyn 99.</p>
+                                <p class="member-description">Fã número 1 do Wes Anderson, adora filmes de guerra, drama e fantasia. Vive de Cup Noodles e Brooklyn 99.</p>
                             </div>
                         </div>
                     </div>
