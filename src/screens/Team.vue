@@ -18,10 +18,7 @@
                             </div>
                         </div>
                     </div>
-                        
-                </div>
-
-                <div class="members">
+                
                     <div class="member">
                         <div class="box-container">
                             <img src="../assets/members-photos/Malu.png" alt="" class="member-photo">
@@ -35,9 +32,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="members">
+                
                     <div class="member">
                         <div class="box-container">
                             <img src="../assets/members-photos/Lywya.png" alt="" class="member-photo">
@@ -51,9 +46,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                
 
-                <div class="members">
+                
                     <div class="member">
                         <div class="box-container">
                             <img src="../assets/members-photos/MariaIsabel.png" alt="" class="member-photo">
@@ -67,7 +62,7 @@
                             </div>
                         </div>
                         
-                </div>
+                    </div>
                 
                 </div>
 
@@ -93,4 +88,5 @@
 
 <style>
     @import '../assets/styles/team.css';
+
 </style>

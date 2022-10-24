@@ -67,4 +67,19 @@
     display: flex;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
+    
+}
+
+@media only screen and (min-width: 1280px) {
+    .team-members {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .box-container {
+        width: 40%;
+        
+        
+    }
 }

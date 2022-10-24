@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 .home {
     background-color: black;
+    
 }
 
 .image-cover {
@@ -21,4 +22,23 @@
     color: white;
     font-size: 1.7rem;
     margin-left: 15px;    
+}
+
+@media only screen and (min-width: 1280px) {
+    .columns {
+        flex-direction: column;
+    }
+
+    .image-cover {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content-welcome {
+        margin: 20%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        position: relative;
+        bottom: 70px;
+    }
 }

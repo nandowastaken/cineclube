@@ -33,3 +33,15 @@
     height: 50vh;
     gap: 15px;
 }
+
+@media only screen and (min-width: 1280px) {
+    .movie-cover {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content-movie {
+        height: 15vh;
+        margin-bottom: 100px;
+    }
+}

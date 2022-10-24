@@ -1,6 +1,6 @@
 <template>
     <div class="columns is-vcentered home">
-        <div class="column">
+        <div class="column home-cover">
             <Navbar/>
             <img src="https://indiehoy.com/wp-content/uploads/2021/07/moonrise-kingdom.jpg" class="image-cover"> 
         </div>
