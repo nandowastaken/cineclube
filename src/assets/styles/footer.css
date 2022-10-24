@@ -1,7 +1,8 @@
 .follow-us {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin: 20px;
+    margin-top: 0px;
     gap: 5px;
 }
 
