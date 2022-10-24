@@ -37,7 +37,7 @@ Para os próximos líderes do Cineclube, este site não me pertence, e também n
 </p>
 
 <div align='center'>
-  <p>©2022 Cineclube - Todos os direitos reservados.</p>
+  <p>© 2022 Cineclube - Todos os direitos reservados.</p>
   
 </div>
 
