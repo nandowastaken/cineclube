@@ -4,15 +4,20 @@
     
 }
 
-.image-cover {
+.image-cover-mobile {
     width: 100vw;
     height: 50vh;
+}
+
+.image-cover-desktop {
+    display: none;
 }
 
 .content-welcome {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 50vh;
     gap: 30px;
 }
@@ -24,14 +29,18 @@
     margin-left: 15px;    
 }
 
+
 @media only screen and (min-width: 1280px) {
     .columns {
         flex-direction: column;
     }
 
-    .image-cover {
-        width: 100%;
-        height: 100%;
+    .image-cover-mobile {
+        display: none;
+    }
+
+    .image-cover-desktop {
+        display: flex;
     }
 
     .content-welcome {

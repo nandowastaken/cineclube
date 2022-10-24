@@ -1,6 +1,17 @@
 <template>
     <div class="columns">
         <div class="column">
+            <!--
+            <div class="follow-us">
+                <p class="follow-us-text">Siga a gente nas redes sociais!</p>
+                <div class="instagram">
+                    <img src="../assets/svgs/instagram.svg" class="insta-logo">
+                    <p>@cineclube_ifal</p>
+                </div>
+                
+            </div>
+            -->
+
             <div class="institute-info">
                 <img src="../assets/logos/logo-if.png" alt="Logo do Instituto Federal." class="logo-if">
                 <p class="institute-name">Instituto Federal de Educação, Ciência e Tecnologia de Alagoas</p>
