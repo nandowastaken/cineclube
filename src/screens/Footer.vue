@@ -2,7 +2,7 @@
     <div class="columns">
         <div class="column">
             <div class="institute-info">
-                <img src="../assets/logo-if.png" alt="Logo do Instituto Federal." class="logo-if">
+                <img src="../assets/logos/logo-if.png" alt="Logo do Instituto Federal." class="logo-if">
                 <p class="institute-name">Instituto Federal de Educação, Ciência e Tecnologia de Alagoas</p>
                 <p class="location">Campus Maceió</p>
             </div>
