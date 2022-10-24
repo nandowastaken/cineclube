@@ -4,7 +4,7 @@
             <div class="content-next-meeting">
                 <h1 class="next-meeting-title" id="next-meeting">Próxima Reunião</h1>
                 <p class="next-meeting-description">
-                    Nossa próxima reunião é Sexta-feira, 11/11. E o filme é O Castelo Animado, do Studio Ghibli.
+                    Nossa próxima reunião é Sexta-feira, 18/11, sobre o filme Psicose (1960), do Alfred Hitchcock.
                 </p>
                 <a href="#movie">
                     <YellowButton message="Ver Filme"/>
