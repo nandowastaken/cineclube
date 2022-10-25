@@ -13,7 +13,7 @@ O Cineclube é o clube de cinema do IFAL campus Maceió. Um espaço perfeito par
 
 <h2 id='funcionalidades'>Telas e suas funções</h2>
 <p>
-  O site conta com 7 telas, a home page, a tela de quem somos, como funciona, próxima reunião, filme do mês, equipe e o footer. <br>
+  O site conta com 7 telas, a home page, a tela de quem somos, como funciona, próxima reunião, filme do mês, equipe e o footer. Confira os conteúdos e funcionalidades das páginas abaixo:<br>
   
   * Na página home, há um menu hamburger para facilitar a movimentação pelo site, e um botão para o formulário de entrada no clube.
   * Em quem somos e como funciona, estão as informações mais gerais sobre o clube.
