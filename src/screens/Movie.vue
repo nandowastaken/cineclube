@@ -11,7 +11,7 @@
                     <p class="movie-info">1960 - Terror/Thriller - 109min</p>
                 </div>
                 
-                <p class="sinopse">Uma bruxa lança uma terrível maldição sobre a jovem Sophie transformando-a numa velha de 90 anos. Desesperada, ela embarca numa odisseia em busca do Castelo Andante, onde reside um misterioso feiticeiro que poderá ajudá-la a reverter o feitiço.</p>
+                <p class="sinopse">Em Psicose, Marion Crane (Janet Leigh) é uma secretária que rouba 40 mil dólares da imobiliária onde trabalha para se casar e começar uma nova vida. Durante a fuga a carro, ela enfrenta uma forte tempestade, erra o caminho e chega em um velho hotel. O estabelecimento é administrado por um sujeito atencioso chamado Norman Bates (Anthony Perkins), que nutre um forte respeito e temor por sua mãe. Marion decide passar a noite no local, sem saber o perigo que a cerca.</p>
             </div>
             
         </div>
