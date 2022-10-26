@@ -37,6 +37,10 @@
                 <a class="navbar-item" href="#team">
                     Equipe
                 </a>
+
+                <a class="navbar-item" href="#contact">
+                    Contato
+                </a>
                 
             </div>
         </div>

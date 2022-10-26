@@ -3,7 +3,7 @@
         <div class="column">
             
             <div class="follow-us">
-                <p class="follow-us-text">CINECLUBE</p>
+                <p class="follow-us-text" id="contact">CINECLUBE</p>
                 <p class="club-description">O lugar perfeito para encontrar amigos com a mesma paixão e interesse que você tem pelo cinema.</p>
 
                 <div class="instagram">
