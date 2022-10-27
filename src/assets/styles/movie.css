@@ -2,7 +2,8 @@
     background-color: black;
 }
 .movie-cover {
-    height: 50vh;
+    height: 100%;
+    width: 100%;
 }
 
 .movie-title {
@@ -30,7 +31,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    height: 40vh;
+    margin-bottom: 10px;
     gap: 15px;
 }
 

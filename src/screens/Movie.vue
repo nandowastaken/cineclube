@@ -1,7 +1,7 @@
 <template>
     <div class="columns movie">
         <div class="column is-centered">
-            <img src="https://1.bp.blogspot.com/--yFt3tTvX9E/XzWgMR_AJwI/AAAAAAAALYs/e-JEPoAIFM8SPoD2rXq8LJU1uD85KawdgCLcBGAsYHQ/s1150/Psycho-1960-001.jpg" class="movie-cover" id="movie">
+            <img src="https://www.silvanatoazza.com.br/cms/_files/general/835f0bae.jpg" class="movie-cover" id="movie">
         </div>
 
         <div class="column">
