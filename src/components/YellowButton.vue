@@ -35,4 +35,10 @@
         font-weight: 700;
         font-size: 24px;
     }
+
+    @media only screen and (min-width: 1280px) {
+        .join-club {
+            background-color: #FD4C4C;
+        }
+    }
 </style>

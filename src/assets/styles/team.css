@@ -82,4 +82,24 @@
         
         
     }
+
+    .member {
+        width: 50%;
+    }
+
+    .members {
+        flex-direction: row;
+        
+        
+        
+    }
+
+    .box-container {
+        width: 80%;
+    }
+
+
+    
+
+
 }

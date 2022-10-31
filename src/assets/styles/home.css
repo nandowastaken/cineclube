@@ -41,13 +41,24 @@
 
     .image-cover-desktop {
         display: flex;
+        width: 100vw;
     }
 
     .content-welcome {
-        margin: 20%;
-        margin-top: 0%;
-        margin-bottom: 0%;
-        position: relative;
-        bottom: 70px;
+        position: absolute;
+        bottom: 10%;
+        right: 55%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
     }
+    
+    .welcome-text {
+        margin: 0 100px;
+        margin-bottom: 0;
+    }
+
+
+    
 }

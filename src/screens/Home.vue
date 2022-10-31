@@ -3,7 +3,7 @@
         <div class="column home-cover">
             <Navbar/>
             <img src="https://indiehoy.com/wp-content/uploads/2021/07/moonrise-kingdom.jpg" class="image-cover-mobile"> 
-            <img src="https://i.pinimg.com/originals/07/c7/2e/07c72e9d829041fe210215dc4d60cbe0.jpg" alt="" class="image-cover-desktop">
+            <img src="https://starwarsblog.starwars.com/wp-content/uploads/2017/03/darth-vader-1-cover-header.jpg" alt="" class="image-cover-desktop">
         </div>
 
         <div class="column">

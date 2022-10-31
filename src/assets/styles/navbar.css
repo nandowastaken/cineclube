@@ -12,3 +12,16 @@
     color: white;    
 }
 
+@media only screen and (min-width: 1280px) {
+    .navbar-item {
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        color: black;
+    }
+
+    .navbar-start {
+        margin-left: 10px;
+    }
+}
+
