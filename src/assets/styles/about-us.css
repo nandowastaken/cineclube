@@ -8,6 +8,7 @@
     flex-direction: column;
     gap: 10px;
     margin: 10px;
+    
 }
 
 .section-title, .description {
@@ -23,4 +24,11 @@
 .description {
     font-size: 20px;
     font-weight: 400;
+}
+
+@media only screen and (min-width: 1280px) {
+    .about-us {
+        width: 35%;
+        padding: 20px;
+    }
 }
