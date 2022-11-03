@@ -6,15 +6,18 @@
                 <p class="follow-us-text" id="contact">CINECLUBE</p>
                 <p class="club-description">O lugar perfeito para encontrar amigos com a mesma paixão e interesse que você tem pelo cinema.</p>
 
-                <div class="instagram">
-                    <img src="../assets/svgs/instagram.svg" class="insta-logo">
-                    <p>@cineclube_ifal</p>
-                </div>
+                <div class="social-media">
+                    <div class="instagram">
+                        <img src="../assets/svgs/instagram.svg" class="insta-logo">
+                        <p>@cineclube_ifal</p>
+                    </div>
 
-                <div class="email">
-                    <img src="../assets/imgs/email.png" class="email-icon">
-                    <p>cineclube.ifal@gmail.com</p>
+                    <div class="email">
+                        <img src="../assets/imgs/email.png" class="email-icon">
+                        <p>cineclube.ifal@gmail.com</p>
+                    </div> 
                 </div>
+                
                 
             </div>
             

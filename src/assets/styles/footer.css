@@ -64,3 +64,11 @@
     font-family: 'Inter', sans-serif;
     font-weight: 500;
 }
+
+@media only screen and (min-width: 1280px) {
+    .follow-us {
+        justify-content: center;
+        align-items: center;
+    }
+
+}
