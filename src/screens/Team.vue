@@ -77,7 +77,7 @@
 
 <script lang="ts">
     import { defineComponent } from 'vue';
-    import MemberCard from '../components/MemberCard.vue';
+    
 
     export default defineComponent({
         name: 'TeamCine',

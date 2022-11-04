@@ -1,19 +1,22 @@
 <template>
     <div class="columns movie">
-        <div class="column is-centered">
-            <img src="https://www.silvanatoazza.com.br/cms/_files/general/835f0bae.jpg" class="movie-cover" id="movie">
-        </div>
-
-        <div class="column">
-            <div class="content-movie">
-                <div class="movie-header">
-                    <h1 class="movie-title" id="month-movie">Psicose</h1>
-                    <p class="movie-info">1960 - Terror/Thriller - 109min</p>
+        <div class="movieCardBox">
+            <div class="movieCard">
+                <div class="imgMovieBox">
+                    <img src="https://www.silvanatoazza.com.br/cms/_files/general/835f0bae.jpg" id="movie" class="movieCoverMobile">
+                    <img src="https://poltronanerd.com.br/wp-content/uploads/2018/01/Psicose-cena.jpg" id="movie" class="movieCoverDesktop">
                 </div>
-                
-                <p class="sinopse">Uma mulher rouba uma fortuna de homem milionário e entra em uma fuga, paranoica em ser pega, o desconforto é transmitido na trama, até ela eventualmente conhecer um sujeito dono de um hotel um tanto que suspeito.</p>
+
+                <div class="infoMovie">
+                    <p class="movieTitle">Psicose</p>
+                    <p class="movieDate">1960 - Terror/Thriller - 109min</p>
+                    <p class="movieSinopse">Uma mulher rouba uma fortuna de um homem milionário e entra em uma fuga, paranoica em ser pega, o desconforto é transmitido na trama, até ela eventualmente conhecer um sujeito dono de um hotel um tanto que suspeito.</p>
+                </div>
+
+                <div class="movieBoxInstruction">
+                    Passe o mouse em cima
+                </div>
             </div>
-            
         </div>
     </div>
 </template>

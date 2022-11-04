@@ -17,7 +17,7 @@
 
 <script lang="ts">
     import { defineComponent } from 'vue';
-    import YellowButton from '../components/YellowButton.vue';
+    import YellowButton from './MovieButton.vue';
 
     export default defineComponent({
         name: 'HowWeWork',

@@ -19,7 +19,7 @@
     import { defineComponent } from 'vue';
 
     export default defineComponent({
-        name: 'YellowButton',
+        name: 'MemberCard',
         props: {
             name: String,
             positionMember: String, 

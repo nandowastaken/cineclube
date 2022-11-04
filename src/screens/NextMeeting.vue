@@ -8,7 +8,7 @@
                     de 11h até 12h, e de tarde, de 13h até 14h.
                 </p>
                 <a href="#movie">
-                    <YellowButton message="Ver Filme"/>
+                    <MovieButton message="Ver Filme"/>
                 </a>
             </div>
         </div>
@@ -17,12 +17,12 @@
 
 <script lang="ts">
     import { defineComponent } from 'vue';
-    import YellowButton from '../components/YellowButton.vue';
+    import MovieButton from '../components/MovieButton.vue';
 
     export default defineComponent({
         name: 'HowWeWork',
         components: {
-            YellowButton,
+            MovieButton,
         }
     })
 </script>

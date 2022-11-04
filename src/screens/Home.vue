@@ -2,7 +2,7 @@
     <div class="columns is-vcentered home">
         <div class="column home-cover">
             <Navbar/>
-            <img src="https://indiehoy.com/wp-content/uploads/2021/07/moonrise-kingdom.jpg" class="image-cover-mobile"> 
+            <img src="https://starwarsblog.starwars.com/wp-content/uploads/2017/03/darth-vader-1-cover-header.jpg" class="image-cover-mobile"> 
             <img src="https://starwarsblog.starwars.com/wp-content/uploads/2017/03/darth-vader-1-cover-header.jpg" alt="" class="image-cover-desktop">
         </div>
 
@@ -13,7 +13,7 @@
                 </p>
 
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSe3-J5YLM8g4xVSOLnHmfYY8NCosW4-q_QF26D6PvtF2KjmBw/viewform?usp=sf_link" target="blank">
-                    <YellowButton message="Junte-se ao Clube" />
+                    <MovieButton message="Junte-se ao Clube" />
                 </a>
             </div>
             
@@ -24,13 +24,13 @@
 <script lang="ts">
     import { defineComponent } from 'vue';
     import Navbar from '../components/Navbar.vue';
-    import YellowButton from '../components/YellowButton.vue';
+    import MovieButton from '../components/MovieButton.vue';
 
     export default defineComponent({
         name: 'HomeScreen',
         components: {
             Navbar,
-            YellowButton
+            MovieButton
         }
     })
 </script>

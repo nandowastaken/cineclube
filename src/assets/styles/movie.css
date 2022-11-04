@@ -1,48 +1,182 @@
 .movie {
     background-color: black;
-}
-.movie-cover {
-    height: 100%;
-    width: 100%;
+    
 }
 
-.movie-title {
-    font-family: "Inter", sans-serif;
-    color: white;
-    font-weight: 700;
-    font-size: 32px;
-}
-
-.movie-info {
-    color: #BFBFBF;
-    opacity: 0.6;
-}
-
-.sinopse {
-    color: white;
-    font-family: "Inter", sans-serif;
-    margin: 0px 35px;
-    font-weight: 400;
-    font-size: 18px;
-}
-
-.content-movie {
+.movieCardBox {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.movieCoverDesktop {
+    display: none;
+}
+
+.infoMovie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 50px;
+    gap: 7px;
+}
+
+.movieTitle, .movieDate, .movieSinopse {
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.movieTitle {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.movieDate {
+    opacity: 0.6;
+}
+
+.movieSinopse {
+    font-size: 18px;
+    font-weight: 400;
     text-align: center;
-    margin-bottom: 10px;
-    gap: 15px;
 }
 
 @media only screen and (min-width: 1280px) {
-    .movie-cover {
-        width: 100%;
+    .movie {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .movieCoverDesktop {
+        display: flex;
         height: 100%;
     }
 
-    .content-movie {
-        height: 15vh;
-        margin-bottom: 100px;
+    .movieCardBox {
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
     }
+
+    .movieCard{
+        width: 85%;
+        height: 85%;
+        background-color: white;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: row;
+        color: black;
+        justify-content: space-between;
+        transition: .1s ease;
+        position: relative;
+        user-select: none;
+    }
+
+    .imgMovieBox {
+        height: 100%;
+        width: 100%;
+        transition: .5s ease;
+        transition-delay: .3s;
+    }
+
+    .imgMovieBox img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 25px 25px 25px 25px;
+        transition: .2s ease;
+    }
+
+    .infoMovie{
+        position: absolute;
+        right: 0;
+        width: 50%;
+        text-align: center;
+        height: 100%;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: .5s ease;
+        transition-delay: .0s;
+        
+    }
+
+    .movieTitle, .movieDate, .movieSinopse {
+        color: black;
+    }
+
+    .infoMovie .movieDate {
+        margin-top: 15px;
+        font-size: 1.1em;
+        font-weight: 400;
+    }
+
+    .infoMovie .movieSinopse {
+        padding: 25px 85px 0 85px;
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+
+    .movieBoxInstruction {
+        position: absolute;
+        bottom: 25px;
+        right: 0;
+        transform: translate(-100%);
+        font-size: 2em;
+        color: white;
+        transition: .2s ease;
+        transition-delay: .7s;
+    }
+
+    .movieCard:hover {
+        outline: 3px solid #D21F35;
+    }
+
+    .movieCard:hover .imgMovieBox img{
+        border-radius: 25px 0 25px 25px;
+    }
+
+    .movieCard:hover .imgMovieBox{
+        height: 80vh;
+        width: 50%;
+        transition-delay: 0s;
+    }
+
+    .movieCard:hover .infoMovie{
+        opacity: 1;
+        transition-delay: .2s;
+
+        width: 50%;
+        margin: 0;
+        gap: 2px;
+    }
+
+    .movieCard:hover .movieBoxInstruction {
+        opacity: 0;
+        transition-delay: 0s;
+    }
+
+    .infoMovie .name{
+        font-size: 3em;
+    }
+
+    .movieCoverMobile {
+        display: none;
+    }
+
+    
+
+    
 }
