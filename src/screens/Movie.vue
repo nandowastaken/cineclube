@@ -14,7 +14,7 @@
                 </div>
 
                 <div class="movieBoxInstruction">
-                    Passe o mouse em cima
+                    <p>Passe o mouse em cima</p>
                 </div>
             </div>
         </div>
