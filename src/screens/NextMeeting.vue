@@ -7,6 +7,7 @@
                     Nossa próxima reunião é Sexta-feira, 25/11, sobre o filme Psicose (1960), do Alfred Hitchcock, nos horários da manhã
                     de 11h até 12h, e de tarde, de 13h até 14h.
                 </p>
+
                 <a href="#movie">
                     <MovieButton message="Ver Filme"/>
                 </a>

@@ -1,10 +1,10 @@
 <template>
     <div class="columns movie">
-        <div class="movieCardBox">
-            <div class="movieCard">
+        <div class="movieCardBox" >
+            <div class="movieCard" id="movie">
                 <div class="imgMovieBox">
-                    <img src="https://www.silvanatoazza.com.br/cms/_files/general/835f0bae.jpg" id="movie" class="movieCoverMobile">
-                    <img src="https://poltronanerd.com.br/wp-content/uploads/2018/01/Psicose-cena.jpg" id="movie" class="movieCoverDesktop">
+                    <img src="https://www.silvanatoazza.com.br/cms/_files/general/835f0bae.jpg" class="movieCoverMobile">
+                    <img src="https://poltronanerd.com.br/wp-content/uploads/2018/01/Psicose-cena.jpg" class="movieCoverDesktop">
                 </div>
 
                 <div class="infoMovie">
