@@ -1,9 +1,9 @@
 <template>
-    <div class="columns is-vcentered home">
+    <div class="columns home">
         <div class="column home-cover">
             <Navbar/>
-            <img src="https://starwarsblog.starwars.com/wp-content/uploads/2017/03/darth-vader-1-cover-header.jpg" class="image-cover-mobile"> 
-            <img src="https://starwarsblog.starwars.com/wp-content/uploads/2017/03/darth-vader-1-cover-header.jpg" alt="" class="image-cover-desktop">
+            <img src="https://starwarsblog.starwars.com/wp-content/uploads/2017/03/darth-vader-1-cover-header.jpg" class="image-cover"> 
+            
         </div>
 
         <div class="column">

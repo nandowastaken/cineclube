@@ -123,6 +123,10 @@
         color: black;
     }
 
+    .movieTitle {
+        font-size: 3.5rem;
+    }
+
     .infoMovie .movieDate {
         margin-top: 15px;
         font-size: 1.1em;

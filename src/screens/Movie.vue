@@ -8,8 +8,11 @@
                 </div>
 
                 <div class="infoMovie">
-                    <p class="movieTitle">Psicose</p>
-                    <p class="movieDate">1960 - Terror/Thriller - 109min</p>
+                    <div class="movieHeader">
+                        <p class="movieTitle">Psicose</p>
+                        <p class="movieDate">1960 - Terror/Thriller - 109min</p>
+                    </div>
+                    
                     <p class="movieSinopse">Uma mulher rouba uma fortuna de um homem milionário e entra em uma fuga, paranoica em ser pega, o desconforto é transmitido na trama, até ela eventualmente conhecer um sujeito dono de um hotel um tanto que suspeito.</p>
                 </div>
 

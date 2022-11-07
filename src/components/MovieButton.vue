@@ -43,4 +43,11 @@
         color: #d21f35;
 
     }
+
+    @media only screen and (min-width: 1280px) {
+        .join-club {
+            padding: 10px 50px;
+            border-radius: 40px;
+        }
+    }
 </style>
