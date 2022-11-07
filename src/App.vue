@@ -28,12 +28,25 @@
 </script>
 
 <style>
-
-
     #app {
         height: 100vh;
         width: 100vw;
         background-color: black;
         
     }
+
+    body::-webkit-scrollbar {
+        width: 18px;
+      }
+      body::-webkit-scrollbar-track {
+        background: black;
+      }
+      
+      body::-webkit-scrollbar-thumb {
+        background-color: white;
+        border-radius: 8px;
+        border: 5px solid transparent;
+        background-clip: content-box;
+      }
+      
 </style>

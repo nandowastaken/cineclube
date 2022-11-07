@@ -25,7 +25,7 @@
     }
 
     .join-club {
-        background-color: #FD4C4C;
+        background-color: #d21f35;
         color: black;
         border: none;
         border-radius: 20px;
@@ -34,5 +34,13 @@
         font-family: 'Inter', sans-serif;
         font-weight: 700;
         font-size: 24px;
+
+        transition: 0.6s ease-out;
+    }
+
+    .join-club:hover {
+        background-color: white;
+        color: #d21f35;
+
     }
 </style>

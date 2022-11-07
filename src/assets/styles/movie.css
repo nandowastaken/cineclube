@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .movieCoverDesktop {
@@ -135,17 +136,22 @@
     }
 
     .movieBoxInstruction {
+        width: 100%;
+        position: relative;
         display: flex;
         position: absolute;
         align-items: center;
         justify-content: center;
-        bottom: 25px;
-        right: 0;
-        transform: translate(-100%);
-        font-size: 2em;
-        color: white;
+
+        top: 90%;
         transition: .2s ease;
         transition-delay: .7s;
+    }
+
+    .movieBoxInstructionText {
+        color: white;
+        font-size: 2rem;
+
     }
 
     .movieCard:hover {

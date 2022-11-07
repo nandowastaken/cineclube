@@ -14,7 +14,7 @@
                 </div>
 
                 <div class="movieBoxInstruction">
-                    <p>Passe o mouse em cima</p>
+                    <p class="movieBoxInstructionText">Passe o mouse em cima</p>
                 </div>
             </div>
         </div>
