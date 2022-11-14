@@ -56,9 +56,10 @@ Se tudo estiver de acordo com o novo feature, em breve estarei fazendo o merge c
 Para os próximos líderes do Cineclube, este site não me pertence, e também não pertence a vocês. Vocês poderão utilizar dele durante o tempo em que estiverem gerindo o Cine para, assim como eu, auxiliar na gestão do Cine, facilitar a comunicação com os membros, servir de portal para o clube, e quaisquer outras ideias criativas que eu espero que vocês venham a ter para desenvolver ainda mais este projeto incrível. Esse site não é meu, por mais que eu tenha feito linha de código, nem é de vocês, atuais líderes. Ele é do Cine, e todos os direitos autorais estão resevados a ele. Usem-no com sabedoria, e boa sorte em sua jornada. 
 </p>
 
+<br>
+
 <div align='center'>
   <p>© 2022 Cineclube - Todos os direitos reservados.</p>
-  
 </div>
 
 
