@@ -35,7 +35,19 @@ O Cineclube é o clube de cinema do IFAL campus Maceió. Um espaço perfeito par
 4. npm run serve
 5. Abrir localhost:8080 no navegador de sua preferência.
 ```
+</p>
 
+## Como contribuir
+
+<p>
+Em ordem para manter o desenvolvimento com o funcionamento normal do website, não se deve ser feito nenhum commit na branch principal (main), mas sim em uma branch alternativa com a finalidade daquela mesma alteração. Vamos supor que você esteja trabalhando no visual de uma página de login, crie uma branch feature_loginPage, digitando os seguintes comandos no git: 
+
+```
+git checkout -b feature_loginPage
+git push origin <feature_loginPage>
+```
+
+Se tudo estiver de acordo com o novo feature, em breve estarei fazendo o merge com branch principal (main) e a nova funcionalidade estará no website. 
 </p>
 
 <h2 id='copyright'>Copyright</h2>
