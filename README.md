@@ -3,8 +3,9 @@
 * <a href='#projeto'>Projeto</a>
 * <a href='#funcionalidades'>Telas e suas funções</a>
 * <a href='#como-rodar'>Como rodar localmente</a>
-* <a href='#copyright'>Copyright</a>
 * <a href='#como-contribuir'>Como contribuir</a>
+* <a href='#copyright'>Copyright</a>
+
 
 
 <h2 id='projeto'>Projeto</h2>
