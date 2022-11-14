@@ -4,6 +4,7 @@
 * <a href='#funcionalidades'>Telas e suas funções</a>
 * <a href='#como-rodar'>Como rodar localmente</a>
 * <a href='#copyright'>Copyright</a>
+* <a href='#como-contribuir'>Como contribuir</a>
 
 
 <h2 id='projeto'>Projeto</h2>
@@ -37,7 +38,7 @@ O Cineclube é o clube de cinema do IFAL campus Maceió. Um espaço perfeito par
 ```
 </p>
 
-## Como contribuir
+<h2 id='como-contribuir'>Como contribuir</h2>
 
 <p>
 Em ordem para manter o desenvolvimento com o funcionamento normal do website, não se deve ser feito nenhum commit na branch principal (main), mas sim em uma branch alternativa com a finalidade daquela mesma alteração. Vamos supor que você esteja trabalhando no visual de uma página de login, crie uma branch feature_loginPage, digitando os seguintes comandos no git: 
